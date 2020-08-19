@@ -1,0 +1,5 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <input id="email" type="email" placeholder="Your email" formControlName="email"/>
+    <input id="password" type="password" placeholder="********" formControlName="password"/>
+    <button type="submit">Sign in</button>
+  </form>
